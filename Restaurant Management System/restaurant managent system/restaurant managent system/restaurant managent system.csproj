@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D88A9EB-0AD9-40C8-8743-B0C9736218A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>restaurant_managent_system</RootNamespace>
+    <AssemblyName>restaurant managent system</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bookinglist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookinglist.Designer.cs">
+      <DependentUpon>bookinglist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="booknow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="booknow.Designer.cs">
+      <DependentUpon>booknow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customerlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerlist.Designer.cs">
+      <DependentUpon>customerlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customermanagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customermanagement.Designer.cs">
+      <DependentUpon>customermanagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletebooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletebooking.Designer.cs">
+      <DependentUpon>deletebooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteorder.Designer.cs">
+      <DependentUpon>deleteorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itemlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itemlist.Designer.cs">
+      <DependentUpon>itemlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orderlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderlist.Designer.cs">
+      <DependentUpon>orderlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ordernow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ordernow.Designer.cs">
+      <DependentUpon>ordernow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="restaurantdbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>restaurantdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="restaurantdbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>restaurantdbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="restaurantdbDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>restaurantdbDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="restaurantdbDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>restaurantdbDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="restaurantdbDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>restaurantdbDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="restaurantdbDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>restaurantdbDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="storagemanagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storagemanagement.Designer.cs">
+      <DependentUpon>storagemanagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updatebooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatebooking.Designer.cs">
+      <DependentUpon>updatebooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateorder.Designer.cs">
+      <DependentUpon>updateorder.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bookinglist.resx">
+      <DependentUpon>bookinglist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="booknow.resx">
+      <DependentUpon>booknow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerlist.resx">
+      <DependentUpon>customerlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customermanagement.resx">
+      <DependentUpon>customermanagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletebooking.resx">
+      <DependentUpon>deletebooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteorder.resx">
+      <DependentUpon>deleteorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itemlist.resx">
+      <DependentUpon>itemlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderlist.resx">
+      <DependentUpon>orderlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordernow.resx">
+      <DependentUpon>ordernow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="storagemanagement.resx">
+      <DependentUpon>storagemanagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatebooking.resx">
+      <DependentUpon>updatebooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateorder.resx">
+      <DependentUpon>updateorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="restaurantdbDataSet.xsc">
+      <DependentUpon>restaurantdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>restaurantdbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="restaurantdbDataSet.xss">
+      <DependentUpon>restaurantdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet1.xsc">
+      <DependentUpon>restaurantdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>restaurantdbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="restaurantdbDataSet1.xss">
+      <DependentUpon>restaurantdbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet2.xsc">
+      <DependentUpon>restaurantdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>restaurantdbDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="restaurantdbDataSet2.xss">
+      <DependentUpon>restaurantdbDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet3.xsc">
+      <DependentUpon>restaurantdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>restaurantdbDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="restaurantdbDataSet3.xss">
+      <DependentUpon>restaurantdbDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet4.xsc">
+      <DependentUpon>restaurantdbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>restaurantdbDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="restaurantdbDataSet4.xss">
+      <DependentUpon>restaurantdbDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet5.xsc">
+      <DependentUpon>restaurantdbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="restaurantdbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>restaurantdbDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="restaurantdbDataSet5.xss">
+      <DependentUpon>restaurantdbDataSet5.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reservation1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reservation2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booknow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booking list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel booking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order-now.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orderlist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ordercancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greycross.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cus list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menulist.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

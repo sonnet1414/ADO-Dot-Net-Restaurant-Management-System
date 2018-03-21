@@ -1,0 +1,57 @@
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.exe.config
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.exe
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.pdb
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.csprojResolveAssemblyReference.cache
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.Form1.resources
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.Properties.Resources.resources
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.csproj.GenerateResource.Cache
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.exe
+c:\users\amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.pdb
+C:\Users\Amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.home.resources
+C:\Users\Amit\documents\visual studio 2012\Projects\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.booknow.resources
+D:\cse301\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.exe.config
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.exe
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.pdb
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.csprojResolveAssemblyReference.cache
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.booknow.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.Form1.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.home.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.Properties.Resources.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.csproj.GenerateResource.Cache
+D:\cse301\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.exe
+D:\cse301\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.pdb
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.LoginForm.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.bookinglist.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.deletebooking.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.updatebooking.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.ordernow.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.storagemanagement.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.customerlist.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.customermanagement.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.deleteorder.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.orderlist.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.updateorder.resources
+D:\cse301\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.itemlist.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.exe.config
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.exe
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.pdb
+D:\cse301\New folder\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.exe
+D:\cse301\New folder\restaurant managent system\restaurant managent system\bin\Debug\restaurant managent system.pdb
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.csprojResolveAssemblyReference.cache
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.bookinglist.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.booknow.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.customerlist.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.customermanagement.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.deletebooking.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.deleteorder.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.Form1.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.home.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.itemlist.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.LoginForm.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.orderlist.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.ordernow.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.Properties.Resources.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.storagemanagement.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.updatebooking.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant_managent_system.updateorder.resources
+D:\cse301\New folder\restaurant managent system\restaurant managent system\obj\Debug\restaurant managent system.csproj.GenerateResource.Cache
